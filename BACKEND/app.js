@@ -35,8 +35,8 @@ const authenticateJwt = (req, res, next) => {
 
 mongoose.connect(process.env.DB_URI)
     .then((result) => {
-        app.listen(3000, () => {
-            console.log("App listening on port 3000")
+        app.listen(8000, () => {
+            console.log("App listening on port 8000")
         })
     })
     .catch((err) => console.log(err))
