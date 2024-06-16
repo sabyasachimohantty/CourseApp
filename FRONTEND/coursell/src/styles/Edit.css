@@ -1,0 +1,74 @@
+.edit {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.edit-input-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5rem;
+    background-color: rgb(241, 234, 234);
+}
+
+.edit-input-fields input {
+    padding-block: 10px;
+    padding-inline: 15px;
+    border: none;
+    width: 250px;
+}
+
+.edit-input-fields  input:focus {
+    outline: none;
+}
+
+.edit-input-fields button {
+    padding-block: 10px;
+    padding-inline: 110px;
+    font-weight: 700;
+    background-color: rgb(45, 45, 236);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.edit-course-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 20px;
+    width: 350px;
+}
+
+.edit-course-card img {
+    max-height: 200px;
+}
+
+.edit-course-card p {
+    font-size: smaller;
+}
+
+.edit-course-card button {
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-weight: 700;
+    background-color: rgb(45, 45, 236);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+@media (width <= 900px) {
+    .edit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
